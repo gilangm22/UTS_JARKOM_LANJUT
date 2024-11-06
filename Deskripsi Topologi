@@ -1,0 +1,14 @@
+Router:
+
+R1 CR: Router ini memiliki dua antarmuka (interface), yaitu ETH 3 dan ETH 4, dengan alamat IP 10.10.10.2 dan 11.11.11.2.
+R2 KHI: Router ini juga memiliki dua antarmuka, yaitu ETH 3 dan ETH 4, dengan alamat IP 12.12.12.2 dan 10.10.10.1.
+R3 KJ: Router ini memiliki dua antarmuka, yaitu ETH 3 dan ETH 4, dengan alamat IP 10.10.10.1 dan 192.168.2.1/24.
+Perangkat Komputer:
+
+Komputer dengan alamat IP 192.168.3.1: Terhubung ke R1 CR melalui ETH 2.
+Komputer dengan alamat IP 192.168.1.1/24: Terhubung ke R2 KHI melalui ETH 2.
+Komputer dengan alamat IP 192.168.2.1/24: Terhubung ke R3 KJ melalui ETH 2.
+Koneksi antar Router:
+
+Antara R1 CR dan R3 KJ: Terhubung melalui ETH 3 pada R1 (10.10.10.2) dan ETH 3 pada R3 (10.10.10.1).
+Antara R2 KHI dan R1 CR: Terhubung melalui ETH 4 pada R2 (12.12.12.2) dan ETH 4 pada R1 (11.11.11.2).
