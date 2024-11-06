@@ -1,4 +1,4 @@
-# UTS_JARKOM_LANJUT
+# UTS_TEORI_JARKOM_LANJUT
 Gilang Mahardika
 20210801068
 1. Routing static adalah metode routing dalam jaringan komputer di mana rute (jalur) untuk mengirimkan paket data diatur secara manual oleh administrator jaringan. Dalam konfigurasi ini, administrator menentukan secara eksplisit rute yang harus diikuti oleh paket untuk mencapai tujuan tertentu. Rute-rute ini disimpan dalam tabel routing perangkat jaringan, seperti router.
